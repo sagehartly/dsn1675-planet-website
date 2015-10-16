@@ -1,0 +1,48 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  background-color: lightgrey;
+}
+
+ol {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.photos-section {
+  padding: 0 3em;
+}
