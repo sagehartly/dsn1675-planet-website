@@ -10,7 +10,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
   font-family: sans-serif;
 }
 
@@ -111,4 +110,11 @@ nav {
 
 .photos-section p {
   margin-top: 0;
+}
+
+/*-------------------MOONS PAGE-------------*/
+
+.h1-moons {
+  text-align: left;
+  margin-bottom: 0.75em;
 }
