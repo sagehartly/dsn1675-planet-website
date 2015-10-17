@@ -60,7 +60,30 @@ nav {
 
   li {
     float: left;
-    width: 20%;
+    width: inherit;
+    padding: 0 0.25em;
+  }
+
+  ol {
+    text-align: center;
+    margin: 0 20%;
+  }
+
+  nav {
+    margin
+
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    margin-bottom: 1em;
+  }
+
+  ol {
+    margin-top: 2em;
   }
 
 }
