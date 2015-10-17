@@ -62,16 +62,16 @@ nav {
     float: left;
     width: inherit;
     padding: 0 0.25em;
+
   }
 
   ol {
     text-align: center;
-    margin: 0 20%;
+    padding: 1.5em 0;
   }
 
   nav {
-    margin
-
+    margin: 0;
   }
 
 }
@@ -84,6 +84,15 @@ nav {
 
   ol {
     margin-top: 2em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  ol {
+    margin: 2em 0 0 0;
+    paddin: 0;
   }
 
 }
