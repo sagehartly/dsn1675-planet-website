@@ -114,6 +114,12 @@ nav {
 
 /*-------------------MOONS PAGE-------------*/
 
+.moons-venus {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+
 .h1-moons {
   text-align: left;
   margin-bottom: 0.75em;
