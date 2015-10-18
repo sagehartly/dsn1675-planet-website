@@ -61,12 +61,12 @@ nav {
     float: left;
     width: inherit;
     padding: 0 0.25em;
-
   }
 
   ol {
     text-align: center;
-    padding: 1.5em 0;
+    padding: 2em 0 1em 0;
+    margin-top: 0;
   }
 
   nav {
@@ -91,7 +91,6 @@ nav {
 
   ol {
     margin: 2em 0 0 0;
-    paddin: 0;
   }
 
 }
@@ -123,4 +122,32 @@ nav {
 .h1-moons {
   text-align: left;
   margin-bottom: 0.75em;
+}
+
+.moon ol {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .moon ol {
+    margin: 0 0 1em 0;
+    padding: 0;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .moon ol {
+    padding: 0;
+    margin: 1em 0;
+  }
+
+  .moon p {
+    padding: 0;
+    margin: 1em 0;
+    text-align: left;
+  }
+
 }
