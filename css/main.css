@@ -49,6 +49,7 @@ a {
 ol {
   list-style-type: none;
   padding: 0;
+  margin-left: 25%;
 }
 
 nav {
