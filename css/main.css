@@ -49,29 +49,20 @@ a {
 ol {
   list-style-type: none;
   padding: 0;
-  margin-left: 25%;
-}
-
-nav {
+  margin-top: 2em;
   margin-bottom: 1em;
 }
 
 @media only screen and (min-width: 20em) {
 
   li {
-    float: left;
+    display: inline-block;
     width: inherit;
     padding: 0 0.25em;
   }
 
   ol {
     text-align: center;
-    padding: 2em 0 1em 0;
-    margin-top: 0;
-  }
-
-  nav {
-    margin: 0;
   }
 
 }
@@ -80,11 +71,13 @@ nav {
 
   h1 {
     margin-bottom: 0.5em;
+    text-align: left;
   }
 
   ol {
     margin-top: 2em;
     padding-top: 0;
+    text-align: left;
   }
 
 }
@@ -100,7 +93,7 @@ nav {
 /*-----VENUS----*/
 
 .venus-section {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 /*-----THREE PHOTOS----*/
