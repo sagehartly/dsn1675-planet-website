@@ -120,13 +120,12 @@ ol {
 }
 
 .moon ol {
-  margin-bottom: 0;
+  margin: 1em 0 1em 0;
 }
 
 @media only screen and (min-width: 20em) {
 
   .moon ol {
-    padding: 1em 0;
     margin-bottom: 1em;
   }
 
