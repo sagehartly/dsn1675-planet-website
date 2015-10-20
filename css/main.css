@@ -43,7 +43,8 @@ li {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: blue;
 }
 
 ol {
@@ -112,6 +113,10 @@ ol {
   text-align: center;
   font-weight: bold;
   margin: 0;
+}
+
+.moons-venus a {
+    color: black;
 }
 
 .h1-moons {
