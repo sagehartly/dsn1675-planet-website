@@ -80,14 +80,6 @@ ol {
 
 }
 
-@media only screen and (min-width: 60em) {
-
-  ol {
-
-  }
-
-}
-
 /*-----------SUBHEAD---------------*/
 .subheader {
   background-color: #e2e2e2;
