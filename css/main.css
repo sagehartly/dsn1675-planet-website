@@ -178,12 +178,31 @@ footer {
   background-color: #cbcbcb;
 }
 
+.exploration-links ol {
+  margin-boTtom: 0;
+}
+
 @media only screen and (min-width: 20em) {
 
   .exploration-links ol {
     text-align: left;
-    padding-left: 0.6rem;
+    padding-left: 1.2rem;
     margin-bottom: 0;
+  }
+
+  .exploration-links li {
+    padding: 0;
+  }
+
+  .exploration-links p {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .exploration-links ol {
+    padding-top: 0.6rem;
   }
 
 }
