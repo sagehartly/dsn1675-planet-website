@@ -95,14 +95,10 @@ ol {
 /*-----------SUBHEAD---------------*/
 .subheader {
   background-color: #e2e2e2;
-  margin-botoom: 0;
 }
 
 /*-----VENUS----*/
 
-.venus-section {
-  margin-bottom: 1em;
-}
 
 .body-copy {
   margin: 0 1.2rem;
@@ -112,8 +108,15 @@ ol {
 
 .venus-photos {
   background-color: #e2e2e2;
-  pad-top-ha
 }
+
+/*---------FOOTER------*/
+
+footer {
+  background-color: lightgrey;
+  padding: 0 1.2rem;
+}
+
 
 
 /*-------------------MOONS PAGE-------------*/
