@@ -119,7 +119,7 @@ footer {
 
 
 
-/*-------------------MOONS PAGE-------------*/
+/*-----------------------------------MOONS PAGE----------------------------*/
 
 .moon p {
   text-align: center;
@@ -164,6 +164,26 @@ footer {
     padding: 0;
     margin: 1em 0;
     text-align: left;
+  }
+
+}
+
+/*---------------------------------EXPLORATION PAGE-------------------*/
+
+.exploration-h2 {
+  background-color: #e2e2e2;
+}
+
+.exploration-links {
+  background-color: #cbcbcb;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .exploration-links ol {
+    text-align: left;
+    padding-left: 0.6rem;
+    margin-bottom: 0;
   }
 
 }
