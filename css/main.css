@@ -95,10 +95,10 @@ ol {
 /*-----------SUBHEAD---------------*/
 .subheader {
   background-color: #e2e2e2;
+  padding: 0 1.2rem;
 }
 
 /*-----VENUS----*/
-
 
 .body-copy {
   margin: 0 1.2rem;
@@ -107,14 +107,14 @@ ol {
 /*-----THREE PHOTOS----*/
 
 .venus-photos {
-  background-color: #e2e2e2;
+  background-color: #eeeeee;
 }
 
 /*---------FOOTER------*/
 
 footer {
   background-color: lightgrey;
-  padding: 0 1.2rem;
+  padding: 0 1.2rem 1.2rem 1.2rem;
 }
 
 
