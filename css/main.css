@@ -144,25 +144,11 @@ ol {
 }
 
 /*----MOONS-MAIN----*/
-.moons-main {
-  padding: 0 1.2rem;
+.moons-main dl {
+  padding-left: 0.6rem;
 }
 
-.moons-main h2 {
-  padding-top: 1.2rem;
-}
 
-@media only screen and (min-width: 60em) {
-
-  .moons-main p, dl, h2 {
-    padding-left: 1.2rem;
-  }
-
-  .moons-main h2 {
-    padding-top: 0;
-  }
-
-}
 
 /*---------------------------------EXPLORATION PAGE-------------------*/
 
