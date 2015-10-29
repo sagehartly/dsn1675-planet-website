@@ -127,24 +127,6 @@ ol {
 
 /*-----------------------------------MOONS PAGE----------------------------*/
 
-/*--MOONSNAV---*/
-
-.moon ol {
-  margin-bottom: 0;
-}
-
-
-@media only screen and (min-width: 20em) {
-
-  .moon li {
-    margin: 0;
-  }
-
-  .moon ol {
-    margin-bottom: 0.6rem;
-  }
-
-}
 
 /*---MOOONS-TITLE---*/
 
