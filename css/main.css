@@ -128,19 +128,11 @@ ol {
 /*-----------------------------------MOONS PAGE----------------------------*/
 
 /*--MOONSNAV---*/
-.moon p {
-  text-align: center;
-  font-weight: bold;
-  margin: 0;
+
+.moon ol {
+  margin-bottom: 0;
 }
 
-.moons-venus {
-  padding-top: 0.6rem;
-}
-
-.moons-venus a {
-  color: black;
-}
 
 @media only screen and (min-width: 20em) {
 
@@ -148,9 +140,14 @@ ol {
     margin: 0;
   }
 
+  .moon ol {
+    margin-bottom: 0.6rem;
+  }
+
 }
 
 /*---MOOONS-TITLE---*/
+
 .h1-moons {
   text-align: center;
   padding-bottom: 0.6rem;
@@ -167,12 +164,14 @@ ol {
   padding-top: 1.2rem;
 }
 
-/*------MOONS-FOOTER----*/
+@media only screen and (min-width: 60em) {
 
-@media only screen and (min-width: 38em) {
+  .moons-main p, dl, h2 {
+    padding-left: 1.2rem;
+  }
 
-  .exploration-links ol {
-    padding-left: 0;
+  .moons-main h2 {
+    padding-top: 0;
   }
 
 }
@@ -198,12 +197,15 @@ footer .body-copy {
   margin-bottom: 0;
 }
 
+footer ol {
+  margin-bottom: 0;
+}
+
 @media only screen and (min-width: 20em) {
 
   footer ol {
     text-align: left;
     padding-left: 1.2rem;
-    margin-bottom: 0;
   }
 
   footer li {
