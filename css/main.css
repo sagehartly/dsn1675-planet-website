@@ -45,12 +45,13 @@ li {
   width: 100%;
 }
 
-a {
+header a {
   text-decoration: none;
   color: #1579db;
+  padding: 0.6rem;
 }
 
-a:hover {
+header a:hover {
   background-color:#1579db;
   color: white;
 }
@@ -184,35 +185,42 @@ ol {
 
 /*---------------------------------------COMMON FOOTER--------------------------*/
 
-.footer-links {
+footer {
   background-color: #cbcbcb;
 }
 
-.footer-links ol {
-  margin-boTtom: 0;
+footer a {
+  text-decoration: none;
+  color: #1579db;
+}
+
+footer .body-copy {
+  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 20em) {
 
-  .footer-links ol {
+  footer ol {
     text-align: left;
     padding-left: 1.2rem;
     margin-bottom: 0;
   }
 
-  .footer-links li {
+  footer li {
     padding: 0;
   }
 
-  .footer-links p {
+  footer  p {
     margin-bottom: 0;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
 
-  .exploration-links ol {
+  footer ol {
     padding-top: 0.6rem;
+    padding-left: 0;
   }
 
 }
