@@ -47,7 +47,12 @@ li {
 
 a {
   text-decoration: none;
-  color: blue;
+  color: #1579db;
+}
+
+a:hover {
+  background-color:#1579db;
+  color: white;
 }
 
 ol {
@@ -112,7 +117,7 @@ ol {
 
 /*---------FOOTER------*/
 
-footer {
+.venus-lists {
   background-color: lightgrey;
   padding: 0 1.2rem 0 1.2rem;
 }
@@ -121,6 +126,7 @@ footer {
 
 /*-----------------------------------MOONS PAGE----------------------------*/
 
+/*--MOONSNAV---*/
 .moon p {
   text-align: center;
   font-weight: bold;
@@ -135,40 +141,37 @@ footer {
   color: black;
 }
 
-.h1-moons {
-  text-align: center;
-  padding: 0;
-  margin-bottom: 0.6rem;
-}
-
-.moon ol {
-
-}
-
 @media only screen and (min-width: 20em) {
 
-  .moon ol {
-    margin-bottom: 1em;
-  }
-
   .moon li {
-    padding: 0 0.25em;
     margin: 0;
   }
 
 }
 
+/*---MOOONS-TITLE---*/
+.h1-moons {
+  text-align: center;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1.2rem;
+  background-color: #e2e2e2;
+}
+
+/*----MOONS-MAIN----*/
+.moons-main {
+  padding: 0 1.2rem;
+}
+
+.moons-main h2 {
+  padding-top: 1.2rem;
+}
+
+/*------MOONS-FOOTER----*/
+
 @media only screen and (min-width: 38em) {
 
-  .moon ol {
-    padding: 0;
-    margin: 1em 0;
-  }
-
-  .moon p {
-    padding: 0;
-    margin: 1em 0;
-    text-align: left;
+  .exploration-links ol {
+    padding-left: 0;
   }
 
 }
@@ -179,27 +182,29 @@ footer {
   background-color: #e2e2e2;
 }
 
-.exploration-links {
+/*---------------------------------------COMMON FOOTER--------------------------*/
+
+.footer-links {
   background-color: #cbcbcb;
 }
 
-.exploration-links ol {
+.footer-links ol {
   margin-boTtom: 0;
 }
 
 @media only screen and (min-width: 20em) {
 
-  .exploration-links ol {
+  .footer-links ol {
     text-align: left;
     padding-left: 1.2rem;
     margin-bottom: 0;
   }
 
-  .exploration-links li {
+  .footer-links li {
     padding: 0;
   }
 
-  .exploration-links p {
+  .footer-links p {
     margin-bottom: 0;
   }
 }
