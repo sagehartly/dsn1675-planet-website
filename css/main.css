@@ -117,11 +117,16 @@ header ol {
 }
 
 /*----MOONS-MAIN----*/
+
 .moons-main dl {
   padding-left: 0.6rem;
 }
 
 .moons-discovery {
+  background-color: #eeeeee;
+}
+
+.moons-probes {
   background-color: #e2e2e2;
 }
 
